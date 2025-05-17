@@ -1,4 +1,4 @@
-package models;// Visit.java
+package models;
 import java.time.LocalDate;
 
 public class Visit {
