@@ -1,4 +1,4 @@
-package models;// Veterinarian.java
+package models;
 
 public class Veterinarian {
     private String firstName;
