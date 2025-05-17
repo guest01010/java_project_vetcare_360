@@ -21,7 +21,6 @@ public class Owner {
         this.pets = new ArrayList<>();
     }
 
-    // Accessors
     public String getFirstName() { return firstName; }
     public String getLastName() { return lastName; }
     public String getAddress() { return address; }
@@ -30,7 +29,7 @@ public class Owner {
     public String getFullName() { return firstName + " " + lastName; }
     public List<Pet> getPets() { return pets; }
 
-    // Mutators for editing
+
     public void setFirstName(String firstName) { this.firstName = firstName; }
     public void setLastName(String lastName) { this.lastName = lastName; }
     public void setAddress(String address) { this.address = address; }
