@@ -71,7 +71,7 @@ public class VeterinarianUI {
                             "-fx-padding: 6 14;"
             ));
 
-            // Placeholder action
+            
             viewBtn.setOnAction(e -> {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Veterinarian Info");
@@ -84,7 +84,7 @@ public class VeterinarianUI {
             layout.getChildren().add(card);
         }
 
-        // Animations
+        
         layout.setOpacity(0);
         layout.setTranslateY(30);
 
