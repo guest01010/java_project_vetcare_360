@@ -20,9 +20,9 @@ public class OwnerDetailUI {
         Stage window = new Stage();
         window.setTitle("Owner Details");
 
-        // Owner information
+      
         Label info = new Label(
-                "👤 " + owner.getFullName() + "\n" +
+                        "👤 " + owner.getFullName() + "\n" +
                         "🏠 " + owner.getAddress() + ", " + owner.getCity() + "\n" +
                         "📞 " + owner.getTelephone()
         );
@@ -53,7 +53,7 @@ public class OwnerDetailUI {
             petType.setFont(Font.font("Segoe UI", FontWeight.NORMAL, 13));
             petType.setTextFill(Color.web("#555"));
 
-            // Buttons in HBox
+           
             HBox petButtons = new HBox(10);
             petButtons.setAlignment(Pos.CENTER_LEFT);
 
@@ -123,7 +123,7 @@ public class OwnerDetailUI {
             petsBox.getChildren().add(petCard);
         }
 
-        // Add Pet Button
+        
         Button addPetBtn = new Button("➕ Add Pet");
         addPetBtn.setFont(Font.font("Segoe UI", FontWeight.BOLD, 15));
         addPetBtn.setStyle(buttonStyle("#2ecc71"));
@@ -150,7 +150,7 @@ public class OwnerDetailUI {
         layout.setPadding(new Insets(25));
         layout.setStyle("-fx-background-color: #ecf0f1;");
 
-        // Entrance animation
+        
         layout.setOpacity(0);
         layout.setTranslateY(40);
         ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(800), layout);
