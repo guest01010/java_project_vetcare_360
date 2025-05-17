@@ -1,4 +1,4 @@
-package models;// Pet.java
+package models;
 import java.util.*;
 
 public class Pet {
