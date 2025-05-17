@@ -19,7 +19,7 @@ public class Main extends Application {
         Button btnOwners = new Button("🔍 Rechercher un Propriétaire");
         Button btnVets = new Button("👨‍⚕️ Liste des Vétérinaires");
 
-        // Style buttons
+    
         String baseBtnStyle = "-fx-background-color: #0d6efd; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 10 20; -fx-background-radius: 8;";
         String hoverBtnStyle = "-fx-background-color: #0b5ed7; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 10 20; -fx-background-radius: 8;";
 
@@ -31,7 +31,7 @@ public class Main extends Application {
         btnVets.setOnMouseEntered(e -> btnVets.setStyle(hoverBtnStyle));
         btnVets.setOnMouseExited(e -> btnVets.setStyle(baseBtnStyle));
 
-        // Actions
+        
         btnOwners.setOnAction(e -> OwnerUI.display(primaryStage));
         btnVets.setOnAction(e -> VeterinarianUI.display(primaryStage));
 
